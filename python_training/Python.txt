@@ -1,0 +1,178 @@
+Python
+
+=== Day 1 =============================
+Introduction:
+- 1991, Guido Van Rossum
+- High level language (Human - understandable)
+- Interpreted language (line by line exec)
+- derived from ABC, Modula-3, C, C++, ALgol-68, Smalltalk, Unix-shell and other scripting langs
+- OOPs
+- General Purpose language
+- Dynamically types language (var type need not be mentioned)
+
+Why Python was created ?
+- Reduce complexity
+- Improve code readability
+- Increase productivity
+
+Python versions:
+- 2
+- 3 --> current one in real time industry usage, security, industry standards
+--> can be used in Web Development (Instagram), AI/ML (Chatgpt), Data Science (Netflix Recommendations), Automation (Emails), Cybersecurity (any), Devops (Deployment scripts), Cloud (AWS Automation)
+
+Features of Python:
+1. High Level Language --> act as communicator/bridge btwn human and machine
+--> Easy coding, Easy debugging, Faster learning, Improved readability
+2. Interpreted Language --> Line by Line
+--> Easy debugging, Immediate but (-)slower exec, Faster development, (-)runtime errors
+3. Object Oriented --> can create objects which are real time entity which has its own state (properties, method)
+--> Code reusability, maintainability, scalability
+4. Dynamic typing --> no need to explicitly mention datatypes , python understands dynamically
+5. Platform independent --> runs in any OS. Flexible (reduced dev effort), Portable (cross-platform), Easier development
+6. Beginner's Language --> easy syntax and wide range of development
+7. Standard Library
+8. GUI Programming (Calculator) --> user can interact with contents
+9. Scalable
+9. Portable
+10. Extendable 
+11. Databases
+
+Flow of Python program:
+Code Editor --> .py src file --> Python interpreter (Compiler -> Byte Code (.pyc - pycache memory) -> Virtual Machine (pvm)) --> Running program
+
+Common errors:
+- Syntax error
+- Indentation error
+- Name error --> calling variable that doesnt exist or value isn't set
+- Type error --> cannot combine string and int directly
+
+- Errors are solved by debugging
+
+Syntax:
+- Input: input("Enter name")
+- Output: print("")
+- Single line Comment: #
+- Multi line Comment: """ (or) '''
+
+Keywords and identifiers:
+- Keywords: reserved words in python that has special purpose; building blocks of python code
+- Identifiers: represents something like a variable, function, class, object which helps us to access the data easily and differentiate values. Eg: student_name, StudentClass
+--> use only meaningful identifiers
+
+Variables:
+- Memory representation to store or access a value
+- No default values for variable (will throw name error)
+- Creates memory space --> Stores value --> Variable name is assigned
+
+Datatypes:
+- the type of data which is stored; helps us to decide what operations can be done with this data and how much memory is allocated for it
+--> Integer (int; no fixed size) - small int (28 bytes), large int (dynamically assigned)
+--> Float (24 bytes; +-1.8*10^308) - precision (15 to 17 digits can be stored after point)
+--> Complex - stores imaginary values (32 bytes) Eg:5+6j where j is an imaginary number.
+--> String (str; size depends on chars stored)
+--> Boolean (bool; True(1)/False(0); 28 bytes)
+--> Sequence - like Arrays to store multiple values. (List->mutable;[];56 bytes, Tuple->immutable;();40 bytes)
+--> Set - unordered, unique collection; {}
+--> Dictionary - key value pairs; 240 bytes initally
+
+Typecasting:
+- input() always returns string so typecast as int(input()) to store as integer
+
+Operators:
+- Arithmetic (+ - * / % // **) for maths
+- Assignment (= += -= *= /=) for assigning values
+- Comparison (== != != > < >= <=) for comparing values
+- Logical (and or not) to combine conditions
+- Membership (in notin) to check existence
+- Identity (is isnot) to compare memory
+- Bitwise (& | ^ ~ << >>) for binary operations
+
+Conditional statements:
+- if else
+- switch
+- if else ladder
+- nested if
+- break
+- continue
+
+Loops:
+- for
+- while
+- no do while in python
+
+String Functions:
+code in Welcome.py
+
+=== Day 2 =============================
+List Functions
+List Comprehension
+List Methods
+Dictionaries 
+Nested Dictionaries
+Dictionary Methods
+Sets and its Methods
+Map and its Methods
+
+=== Day 3 =============================
+Python Modules
+- User defined Modules
+- Executing modules as scripts
+- Standard Modules
+- Packages
+- Importing * From a Package
+- Intra-package References
+- Packages in Multiple Directories
+
+Handling an exception
+- try….except…else
+- try-finally clause
+- Argument of an Exception
+- Python Standard Exceptions
+- Raising an exceptions
+- User-Defined Exceptions
+
+=== Day 4 =============================
+OOPS
+Class and Object
+Constructor
+Inheritance
+Polymorphism
+Method Overriding
+Encapsulation 
+Abstraction
+
+=== Day 5 =============================
+Collections -Container Datatypes
+Regular Expression
+Decorators
+Generators
+Context Managers (with statement)
+Database Connectivity
+
+=== Day 6 ============================= 
+py unit - Python Unit Testing
+
+- SRS: Software Requirement Specification - Document should be created before starting the development of the project which contains all the requirements and specifications of the project
+
+- Test Cases: should be created based on the requirements mentioned in the SRS document to test
+
+- STLC: Software Testing Life Cycle - process of testing the software which includes different phases
+--> Phases of STLC: Requirement Analysis, Test Planning, Test Case Development, Environment Setup, Test Execution, Bug Reporting, Test Closure
+
+- Types of Testing
+--> Functional Testing - Testing based on SRS requirements
+|---> Unit Testing - Individual functions tested separately
+|---> Integration Testing - Combined modules tested
+|---> System Testing - Complete application tested
+|---> Acceptance Testing - Client tests before the application is launched
+--> Non Functional Testing - Testing for application support but not in SRS requirements 
+|---> Performance - Testing the application performance based on speed and stability
+
+- Testing Techniques
+--> Black Box - Tester will only be able to see the output but not the internal code
+--> White Box - Tester will check for the internal code logic
+--> Grey Testing - Tester will know the internal code partially 
+
+- Manual (best for UI-based applications) & Automation Testing (best for scripts)
+
+- Autonomous Testing: AI Tests automatically without human intervention.
