@@ -1,0 +1,52 @@
+✅ A1. ASP.NET Core Web API – Books
+
+Create a RESTful API using ASP.NET Core Web API that manages a collection of books. Each book should have the following attributes:
+• Title
+• Author
+• ISBN (International Standard Book Number)
+• Publication Year
+
+The API should support the following operations:
+• Retrieve all books.
+• Retrieve a single book by its ISBN.
+• Add a new book.
+• Update an existing book.
+• Delete a book by its ISBN.
+
+Add login using JWT Authentication
+Add unit tests to test the API
+Requirements:
+
+• Use ASP.NET Core Web API / Entity Framework Core / Django / Express JS for building the REST API.
+• Utilize a database to store book data.
+• Implement proper error handling and validation for input data.
+• Use appropriate HTTP methods (GET, POST, PUT, DELETE) for each operation.
+• Test the API with Postman functionality of the API endpoints.
+• Use JWT authentication for login.
+
+✅ B1. ASP.NET Core Web API – Tasks
+
+Create a RESTful API using ASP.NET Core Web API for managing tasks. Each task should have the following attributes:
+• Task ID
+• Title
+• Description
+• Due Date
+• Priority (Low, Medium, High)
+• Status (Pending, In Progress, Completed)
+
+The API should support the following operations:
+• Retrieve all tasks.
+• Retrieve a single task by its ID.
+• Add a new task.
+• Update an existing task.
+• Delete a task by its ID.
+
+Add login using JWT Authentication
+Add unit tests to test the API
+Requirements:
+
+• Use ASP.NET Core Web API / Entity Framework Core / Django / Express JS for building the REST API.
+• Utilize a database to store data.
+• Implement proper error handling and validation for input data.
+• Use appropriate HTTP methods (GET, POST, PUT, DELETE) for each operation.
+• Test the API with Postman functionality of the API endpoints.
